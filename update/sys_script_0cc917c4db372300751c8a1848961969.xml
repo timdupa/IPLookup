@@ -32,9 +32,9 @@
 	// Add your code here
 	try {
 		var r = new sn_ws.RESTMessageV2('x_315136_iplookup.IPInfo', 'GetIPInfo');
+		//r.setStringParameterNoEscape('ipaddress', '4.14.86.85');
 		r.setStringParameterNoEscape('specific_field', 'geo');
 		r.setStringParameterNoEscape('ipaddress', current.ip_address);
-		
 		
 		//override authentication profile
 		//authentication type ='basic'/ 'oauth2'
@@ -51,6 +51,7 @@
 		var response = r.execute();
 		var responseBody = response.getBody();
 		var httpStatus = response.getStatusCode();
+		
 		// Convert the json formatted string to a JavaScript Object
 		var responseObj = JSON.parse(responseBody);
 		// Set the value of the City field on the IPAddressInfo record
@@ -68,7 +69,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0cc917c4db372300751c8a1848961969</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_315136_iplookup">01b64b48dbf32300751c8a184896192d</sys_package>
@@ -76,7 +77,7 @@
         <sys_scope display_value="IPLookup">01b64b48dbf32300751c8a184896192d</sys_scope>
         <sys_update_name>sys_script_0cc917c4db372300751c8a1848961969</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-18 21:58:24</sys_updated_on>
+        <sys_updated_on>2019-02-19 14:13:29</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

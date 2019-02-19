@@ -52,8 +52,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-18 20:19:57</sys_created_on>
-        <sys_id>2ee8d300db372300751c8a18489619c8</sys_id>
+        <sys_created_on>2019-02-19 13:49:44</sys_created_on>
+        <sys_id>61394f14db332300751c8a18489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>City</sys_name>
         <sys_package display_value="IPLookup" source="x_315136_iplookup">01b64b48dbf32300751c8a184896192d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="IPLookup">01b64b48dbf32300751c8a184896192d</sys_scope>
         <sys_update_name>sys_dictionary_x_315136_iplookup_ipaddressinfo_city</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-18 20:19:57</sys_updated_on>
+        <sys_updated_on>2019-02-19 13:49:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
